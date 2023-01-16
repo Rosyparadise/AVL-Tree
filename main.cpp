@@ -15,7 +15,7 @@
 void Data_creation (char **&data,unsigned int &cw)
 {
     //opening the file
-    ifstream readtext("insert_name_here.txt");
+    ifstream readtext("small-file.txt");
     string word;
     unsigned int j, i=0;
     //allocating dynamic memory for the data array
